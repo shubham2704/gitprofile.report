@@ -1,0 +1,30 @@
+{
+  "name": "gitprofilereport",
+  "version": "1.0.0",
+  "description": "A website that generates the report/summary of the given github profile. 😉",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham2704/gitprofilereport.git"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "profile",
+    "profile",
+    "summary",
+    "githubprofile",
+    "githubprofilesummary",
+    "report",
+    "githubreport"
+  ],
+  "author": "Shubham Goswami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shubham2704/gitprofilereport/issues"
+  },
+  "homepage": "https://github.com/shubham2704/gitprofilereport#readme"
+}
