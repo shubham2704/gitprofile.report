@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/shubham2704/gitprofilereport/issues"
   },
-  "homepage": "https://github.com/shubham2704/gitprofilereport#readme"
+  "homepage": "https://github.com/shubham2704/gitprofilereport#readme",
+  "dependencies": {
+    "bulma": "^0.9.0"
+  }
 }
