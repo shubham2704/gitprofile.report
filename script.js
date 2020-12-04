@@ -12,11 +12,11 @@ const url = "https://api.github.com/users/"
 
 async function showResults(){
 	const data=await fetch(`${url}${input.value}`)
-	const fdata=await data.json();
+    const fdata=await data.json();
     console.log(fdata)
-    name.innerHTML = fdata.login
-    bio.innerHTML = fdata.bio;
-    image.innerHTML = `<img src = "${fdata.avatar_url}">`;
+    // name.innerHTML = fdata.login
+    // bio.innerHTML = fdata.bio;
+    // image.innerHTML = `<img src = "${fdata.avatar_url}">`;
 
 }
 
