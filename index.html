@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    
     <title>Profile Summray - Github.com</title>
 </head>
 <body>
@@ -11,7 +13,7 @@
     <!--Search Area -->
    
     <nav class="navbar is-transparent has-background-dark search-area">
-        <div class="navbar-brand mt-3">
+        <div class="mt-3 navbar-brand">
           <a class="navbar-item" href="#">
             <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
           </a>
@@ -24,7 +26,7 @@
       
         <div class="navbar-menu mt-3 ml-6">
           <div class="navbar-start">
-            <input class="input is-info is-rounded ml-6" type="text" id="name" name="username" placeholder="Enter Github UserName"> 
+            <input class="input is-info is-rounded ml-6" type="text" id="username" name="username" placeholder="Enter Github UserName"> 
             <button class="button is-success is-rounded ml-3" id="submit">View Summary</button>
         </div>
       </nav>
@@ -34,38 +36,68 @@
      
 
     <!--Basic profile Info-->
-    <div class="row-1" style="max-height: 700px;">
-      <div class="card" style="max-height: 700px; max-width: 300px;">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-              </figure>
+    <div class="mt-6 columns">
+      <!-- <div class="row-1 column " style="max-height: 700px;">
+        <div class="card" style="max-height: 700px; max-width: 300px;">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
             </div>
-            <div class="media-content">
-              <p class="title is-4">John Smith</p>
-              <p class="subtitle is-6">@johnsmith</p>
+        
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a href="#">#css</a> <a href="#">#responsive</a>
+              <br>
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
             </div>
           </div>
-      
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-            <a href="#">#css</a> <a href="#">#responsive</a>
-            <br>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-          </div>
         </div>
+          
       </div>
-        <div class="commit-chart">
+      -->
 
-        </div>
+
+      <div class="column level-item has-text-centered">
+        <p class="heading"><img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image"></p>
+        <p class="title">Shubham2704</p>
+        <p class="px-2 body">I'm a Full Stack Developer. I care deeply about creating world-class, useful, and beautiful products that help people and make a difference</p>
+      </div>
+      
+      <div class="column level-item has-text-centered">
+          <p class="heading">Tweets</p>
+          <p class="title">3,456</p>
+      </div>
+      
+      <div class="column level-item has-text-centered">
+        <p class="heading">Tweets</p>
+        <p class="title">3,456</p>
+      </div>
+      
+      <div class="column level-item has-text-centered">
+        <p class="heading">Tweets</p>
+        <p class="title">3,456</p>
+      </div>
+
+      <div class="column level-item has-text-centered">
+        <p class="heading">Tweets</p>
+        <p class="title">3,456</p>
+      </div>
+      
+      
     </div>
 
     <!-- Profile Info in badges-->
@@ -79,21 +111,31 @@
     </div>
 
     <!-- Footer-->
-    <div class="footer">
-        
-    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
 
 
-    <!--Basic/starting setup for the project-->
+    <!-- Basic/starting setup for the project
     <form action="">
-        <input type="text" id="username" name="username" placeholder="Enter Github username">  
+        <input type="text" id="username-test" name="username" placeholder="Enter Github username">  
     </form>
     <div class="profile">
         
     </div>
     <h1></h1>
     <h2></h2>
-    <button id="button" >submit</button>
-    <script src="script.js"></script>
+    <button id="button" >submit</button> -->
+
+
+
+    <script src="./test.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

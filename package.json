@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/shubham2704/gitprofilereport#readme",
   "dependencies": {
-    "bulma": "^0.9.0"
+    "bulma": "^0.9.0",
+    "chart.js": "^2.9.4"
   }
 }
