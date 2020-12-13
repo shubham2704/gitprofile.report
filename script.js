@@ -15,8 +15,6 @@ async function getdata(){
     const mainData = await fetch(`${url}${username.value}`);
     const data = await mainData.json();
 
-    console.log(mainData);
-    console.log(data);
     showdata(data);
 };
 
@@ -83,29 +81,11 @@ function showdata(data) {
         <p class="body"><a href="${data.blog}">${data.blog}</a></p>
       </div>`;
 }
+
+
 submit.addEventListener('click', getdata);
 
-// const input = document.getElementById('username-test');
-// const name = document.querySelector('h1');
-// const bio = document.querySelector('h2');
-// const image = document.querySelector('.profile');
-// const submit = document.getElementById('button');
-// const buttonElement = document.getElementById('btn');
 
-
-
-
-// async function showResults(){
-// 	const data=await fetch(`${url}${input.value}`)
-//     const fdata=await data.json();
-//     console.log(fdata)
-//     name.innerHTML = fdata.login
-//     bio.innerHTML = fdata.bio;
-//     image.innerHTML = `<img src = "${fdata.avatar_url}">`;
-
-// }
-
-// submit.addEventListener('click', showResults);
 
 
 
