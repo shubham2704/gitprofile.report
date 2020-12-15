@@ -27,7 +27,7 @@ function showdata(data) {
   
     <div class="column level-item has-text-centered">
         <p class="heading"><img src="${data.avatar_url}" alt="Placeholder image" width="40%" height="90%"></p>
-        <p class="title">${data.login}</p>
+        <p class="title">${data.name}</p>
         <p class="px-4 body">${data.bio}</p>
         <p class="body">Location : ${data.location}</p>
         <p class="heading">Joined At : ${data.created_at}</p>
